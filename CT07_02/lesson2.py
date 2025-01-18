@@ -1,4 +1,5 @@
 print("Hello from lesson 2")
 
 def function():
-    range 
+    for i in range(5):
+        print(i)
