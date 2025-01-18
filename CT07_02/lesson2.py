@@ -1,4 +1,4 @@
 i = 1
-while i <= 11:
+while i <= 10:
     print(i)
-    i plus 1
+    i += 1
