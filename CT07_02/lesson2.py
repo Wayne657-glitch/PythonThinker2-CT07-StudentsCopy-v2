@@ -14,6 +14,11 @@ questions = [
     "How many minutes are in 1 hour?",
     "How many seconds are in 1 minute?"
 ]
+answers = [
+    "7",
+    "60",
+    "60"
+]
 
 question_count = 0
 while question_count < 3:
