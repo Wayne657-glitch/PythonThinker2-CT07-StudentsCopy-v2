@@ -8,4 +8,4 @@ while True:
     else:
         toppings = topping
     print("Your pizza has the following toppings:" + toppings)
-    print("You have chosen the following toppings: " + toppings)
+print("You have chosen the following toppings: " + toppings)
