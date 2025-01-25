@@ -39,7 +39,7 @@ while question_count < 3:
         question_count += 1
         fail_count += 0  
     else:
-        print("Incorrect. The correct answer is " )
+        print("Incorrect. Try again " )
         fail_count += 1
         score += -1
         if fail_count >= max_fails:
