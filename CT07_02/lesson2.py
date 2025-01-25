@@ -1,5 +1,5 @@
-toppings = ""
-while True:
+#toppings = ""
+#while True:
     #topping = input("Enter a topping! (type 'end' to finish):")
    # if topping.lower() == 'end':
        # break
