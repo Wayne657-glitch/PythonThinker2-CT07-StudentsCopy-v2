@@ -18,7 +18,7 @@ questions = [
 question_count = 0
 while question_count < 3:
     answer = input(questions[question_count] + " ")
-    answer = input(questions[question_count] + " ")
+    
     if answer == answer[question_count]:
         print("Correct!")
     else:
