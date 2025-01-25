@@ -22,7 +22,7 @@ while question_count < 3:
     if answer == answer[question_count]:
         print("Correct!")
     else:
-        print("Incorrect. The correct answer is " + answers[question_count] + ".")
+        print("Incorrect. The correct answer is " + answer[question_count] + ".")
     
     question_count += 1
 
