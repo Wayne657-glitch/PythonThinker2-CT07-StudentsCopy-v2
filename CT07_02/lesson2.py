@@ -14,8 +14,7 @@ questions =  ["How many days is in 1 week?",
               "How many minutes are in 1 hour?",
               "How many seconds are in 1 minute?"]
 for question in questions:
-    answer = input(question)
-    if answer == "end":
-        break
-    print("You did it?")
+    if question == "How many days is in 1 week?":
+        print("7")
+        
 
