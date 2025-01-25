@@ -9,6 +9,10 @@
         #toppings = topping
     #print("Your pizza has the following toppings:" + toppings)
 #print("You have chosen the following toppings: " + toppings)
-
+questions = [
+    "How many days are in 1 week?",
+    "How many minutes are in 1 hour?",
+    "How many seconds are in 1 minute?"
+]
         
 
