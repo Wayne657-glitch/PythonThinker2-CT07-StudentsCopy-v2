@@ -24,16 +24,28 @@ question_count = 0
 score = 0
 fail_count = 0
 max_fails = 5
+
 while question_count < 3:
     answer = input(questions[question_count] + " (type 'skip' to skip): ")
-    answer = input(questions[question_count] + " ")
+    
+    if answer.lower() == 'skip':
+        print("Question skipped.")
+        question_count += 1
+        continue
     
     if answer == answers[question_count]:
         print("Correct!")
+        score += 1
         question_count += 1
+        fail_count = 0  # Reset fail count on correct answer
     else:
         print("Incorrect. The correct answer is " + answers[question_count] + ".")
-        question_count += 0
+        fail_count += 1
+        if fail_count >= max_fails:
+            print("You have been disqualified after failing 5 times.")
+            break
 
+if fail_count < max_fails:
+    print("Thank you for answering the questions!")
+    print("Your final score is: " + str(score))
 
-print("Thank you for answering the questions!")
