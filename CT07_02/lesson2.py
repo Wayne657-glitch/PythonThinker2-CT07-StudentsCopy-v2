@@ -1,3 +1,5 @@
 num=10 
 while num!= 0: 
-    print
+    print(num)
+    num -=1
+    
