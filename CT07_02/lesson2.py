@@ -37,7 +37,7 @@ while question_count < 3:
         print("Correct!")
         score += 1
         question_count += 1
-        fail_count = 0  # Reset fail count on correct answer
+        fail_count = 0  
     else:
         print("Incorrect. The correct answer is " + answers[question_count] + ".")
         fail_count += 1
