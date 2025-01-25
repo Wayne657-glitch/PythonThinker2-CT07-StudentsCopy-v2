@@ -26,10 +26,10 @@ while question_count < 3:
     
     if answer == answers[question_count]:
         print("Correct!")
-        
+        question_count += 1
     else:
         print("Incorrect. The correct answer is " + answers[question_count] + ".")
     
-    question_count += 1
+
 
 print("Thank you for answering the questions!")
