@@ -41,6 +41,7 @@ while question_count < 3:
     else:
         print("Incorrect. The correct answer is " + answers[question_count] + ".")
         fail_count += 1
+        question_count += -1
         if fail_count >= max_fails:
             print("You have been disqualified after failing 5 times.")
             break
