@@ -25,6 +25,7 @@ score = 0
 fail_count = 0
 max_fails = 5
 while question_count < 3:
+    answer = input(questions[question_count] + " (type 'skip' to skip): ")
     answer = input(questions[question_count] + " ")
     
     if answer == answers[question_count]:
