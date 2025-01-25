@@ -14,9 +14,10 @@ questions = [
     "How many minutes are in 1 hour?",
     "How many seconds are in 1 minute?"
 ]
-answer = input(questions[question_count] + " ")
+
 question_count = 0
 while question_count < 3:
+    answer = input(questions[question_count] + " ")
     answer = input(questions[question_count] + " ")
     if answer == answer[question_count]:
         print("Correct!")
