@@ -1,3 +1,3 @@
 toppings = ""
 while True:
-    topping = input()
+    topping = input("Enter a topping!")
