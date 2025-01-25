@@ -29,7 +29,7 @@ while question_count < 3:
         question_count += 1
     else:
         print("Incorrect. The correct answer is " + answer[question_count] + ".")
-    
+        question_count += 0
     
 
 print("Thank you for answering the questions!")
