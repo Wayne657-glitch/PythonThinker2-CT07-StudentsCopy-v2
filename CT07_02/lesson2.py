@@ -26,9 +26,14 @@ while question_count < 3:
     
     if answer == answers[question_count]:
         print("Correct!")
-    else:
-        print("Incorrect. The correct answer is " + answers[question_count] + ".")
-    
-    question_count += 1
+        questions = [
+    "How many days are in 1 week?",
+    "How many minutes are in 1 hour?",
+    "How many seconds are in 1 minute?"
+]
+answers = [
+    "7",
+    "60",
+    "60"
+]
 
-print("Thank you for answering the questions!")
