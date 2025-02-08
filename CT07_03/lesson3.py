@@ -4,6 +4,6 @@ while num < 10:
     num += 1
     print(num)
 else:
-    pr
+    print("Happy New Year!")
 
 
