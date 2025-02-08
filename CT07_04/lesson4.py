@@ -7,4 +7,5 @@
  #   count -= 1
 #print("Happy New Year!")
 planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
-print (planets)
+for planet in planets:
+    print(planet, end=" ")
