@@ -10,7 +10,6 @@ planets = [
     "Mercury",
     "Venus",
     "Earth",
-    "Lalaland"
     "JDWISL",
     "Jupiter",
     "Saturn",
