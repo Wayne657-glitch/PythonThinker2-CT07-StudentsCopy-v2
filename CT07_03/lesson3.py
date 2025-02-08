@@ -1,7 +1,8 @@
 num = 10
+import time
 
-while num > 1:
-    num += 1
+while num == 10 :
+    num -= 1
     print(num)
 else:
     print("Happy New Year!")
