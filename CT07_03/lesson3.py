@@ -1,4 +1,4 @@
-num = 0
+num = 10
 
 while num < 10:
     num += 1
