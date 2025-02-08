@@ -1,7 +1,8 @@
 import time
 
-for i in range(10, 0, -1):
-    print(i)
+count = 10
+while count > 0:
+    print(count)
     time.sleep(1)
+    count -= 1
 print("Happy New Year!")
-
