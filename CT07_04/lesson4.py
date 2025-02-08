@@ -10,10 +10,10 @@ planets = [
     "Mercury",
     "Venus",
     "Earth",
-    "Mars",
+    "JDWISL",
     "Jupiter",
     "Saturn",
     "Uranus",
     "Neptune",
-    
+
 ]
