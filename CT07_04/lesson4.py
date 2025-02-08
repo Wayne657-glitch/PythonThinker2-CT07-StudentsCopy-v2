@@ -16,4 +16,5 @@ planets = [
     "Uranus",
     "Neptune",
 ]
-list.insert(3, )
+list.insert(3, "Lalaland")
+print
