@@ -4,5 +4,6 @@ while num != 0:
     print(num)
     num -= 1
 else:
-    print()
+    print("Happy New Year!")
+    
 
