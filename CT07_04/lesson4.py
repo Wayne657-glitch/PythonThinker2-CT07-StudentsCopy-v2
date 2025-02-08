@@ -16,3 +16,4 @@ planets = [
     "Uranus",
     "Neptune",
 ]
+list.insert
