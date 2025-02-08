@@ -17,4 +17,4 @@ planets = [
     "Neptune",
 ]
 list.insert(3, "Lalaland")
-print
+print(planets)
