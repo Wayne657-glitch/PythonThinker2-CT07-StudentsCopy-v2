@@ -10,11 +10,11 @@ planets = [
     "Mercury",
     "Venus",
     "Earth",
-    "JDWISL",
+    "Mars",
     "Jupiter",
     "Saturn",
     "Uranus",
     "Neptune",
 ]
-list.insert(3, "Lalaland")
+planets.insert(3, "Lalaland")
 print(planets)
