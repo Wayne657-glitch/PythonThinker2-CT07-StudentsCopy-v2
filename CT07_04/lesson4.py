@@ -6,3 +6,4 @@
   #  time.sleep(1)
  #   count -= 1
 #print("Happy New Year!")
+planets = []
