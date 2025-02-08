@@ -17,4 +17,13 @@ planets = [
     "Neptune",
 ]
 planets.insert(3, "Lalaland")
-print(planets)
+
+for planet in planets:
+    if planet == "Earth":
+        print(f"{planet} - This is my home.")
+    elif planet == "Mars":
+        print(f"{planet} - I conquered this.")
+    elif planet == "Lalaland":
+        print(f"{planet} - I created this.")
+    else:
+        print(planet)
