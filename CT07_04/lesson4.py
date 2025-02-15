@@ -29,11 +29,11 @@
  #       print(planet)
 countries_to_visit = []
 
-while True:
-    country = input("What country would you like to visit? (type 'done' to finish): ")
-    if country.lower() == 'done':
-        break
-    countries_to_visit.append(country)
+#while True:
+   # country = input("What country would you like to visit? (type 'done' to finish): ")
+    #if country.lower() == 'done':
+        #break
+    #countries_to_visit.append(country)
 
-for country in countries_to_visit:
-    print(f"I would like to visit {country}")
+#for country in countries_to_visit:
+ #   print(f"I would like to visit {country}")
