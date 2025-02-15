@@ -27,7 +27,7 @@
        # print(f"{planet} - I created this.")
   #  else:
  #       print(planet)
-countries_to_visit = []
+#countries_to_visit = []
 
 #while True:
    # country = input("What country would you like to visit? (type 'done' to finish): ")
